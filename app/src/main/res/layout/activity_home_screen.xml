@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/design_default_color_secondary">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to Baby Care App"
+        android:textSize="30sp"
+        android:padding="10sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="32dp"
+        android:background="#C271F7"/>
+
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:background="@drawable/aa"
+        android:textStyle="italic"
+        android:textColor="@color/black"
+        android:text="our app is like a Swiss Army knife for modern parents, seamlessly blending organization, convenience, and peace of mind into one handy tool. From meal planning to health tracking, it's your secret weapon for navigating the wonderful chaos of parenting with ease." />
+
+    <Button
+        android:id="@+id/buttonMealPlanner"
+        android:layout_width="wrap_content"
+        android:layout_height="60sp"
+        android:layout_marginBottom="16dp"
+        android:text="Meal Planner and Polio Dose" />
+
+    <Button
+        android:id="@+id/buttonHealthDiary"
+        android:layout_width="wrap_content"
+        android:layout_height="60sp"
+        android:text="Health Diary" />
+
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="match_parent"
+        android:layout_height="200sp"
+        app:srcCompat="@drawable/a2" />
+
+    <Button
+        android:id="@+id/buttonExit"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginTop="20sp"
+        android:text="Exit" />
+
+</LinearLayout>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/design_default_color_secondary">
+
+
+    <!-- Meal planning UI components -->
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFEB3B"
+        android:gravity="center"
+        android:paddingTop="23sp"
+        android:paddingBottom="23sp"
+        android:text="MAINTAINING CHILD DETAILS"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Maintain Meal Record Here"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        android:background="@color/cardview_shadow_end_color"/>
+
+
+    <EditText
+        android:id="@+id/editTextMeal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:hint="Enter meal Eat By Children!!" />
+
+    <Button
+        android:id="@+id/buttonAddMeal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Add Meal" />
+
+    <!-- Display meal schedule -->
+    <TextView
+        android:id="@+id/textViewMealSchedule"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="50sp"
+        android:text=" "
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Maintain Polio Dose Date Here"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        android:background="@color/cardview_shadow_end_color"/>
+
+    <EditText
+        android:id="@+id/editTextPolioDoseDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Polio Dose Date"
+        android:layout_marginTop="8dp"/>
+
+    <Button
+        android:id="@+id/buttonAddPolioDose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Dose Date"
+        android:layout_marginTop="8dp"/>
+
+    <!-- Polio Dose Date Noter section -->
+    <TextView
+        android:id="@+id/textViewPolioDose"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" "
+        android:layout_marginTop="16dp"
+        android:textSize="15dp"
+        android:textStyle="bold"/>
+
+</LinearLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+
+
+    <EditText
+        android:id="@+id/editTextHealthInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter health information"/>
+
+    <Button
+        android:id="@+id/buttonAddHealthInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextHealthInfo"
+        android:layout_marginTop="8dp"
+        android:text="Add Information"/>
+
+    <TextView
+        android:id="@+id/textViewHealthInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonAddHealthInfo"
+        android:layout_marginTop="16dp"
+        android:text="Health Information"
+        android:textStyle="bold"/>
+
+</RelativeLayout>
